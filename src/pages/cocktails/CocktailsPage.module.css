@@ -3,6 +3,7 @@
 .body {
   justify-content: center;
   align-items: center;
+  padding: 6em;
 }
 
 /* Header */
@@ -34,4 +35,9 @@
   right: 2rem;
   box-shadow: 0px 8px 20px 1px rgba(68, 68, 68, 0.25);
   -webkit-box-shadow: 0px 8px 20px 1px rgba(68, 68, 68, 0.25);
+}
+
+.cocktails {
+  width: 100%;
+  margin-top: 2em;
 }

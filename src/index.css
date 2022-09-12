@@ -1,5 +1,5 @@
 :root {
-  --light-base-dark: #1b2838;
+  --light-base-dark: #2a475e;
   --light-base: #e1ecf5;
   --light-base-light: #ffffff;
   --light-base-alt: #c7d5e0;
@@ -28,6 +28,24 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+input {
+  outline: none;
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .body {
   background-color: var(--base-light);
   color: #222222;
@@ -38,6 +56,6 @@ body {
 }
 
 .dark .body {
-  background-color: var(--dark-base);
+  background-color: var(--dark-base-dark);
   color: #ffffff;
 }

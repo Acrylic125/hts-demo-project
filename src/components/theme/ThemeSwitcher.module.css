@@ -9,6 +9,6 @@
   color: white;
 }
 
-.dark .themeSwitcher {
+:global(.dark) .themeSwitcher {
   background-color: var(--dark-base-light);
 }

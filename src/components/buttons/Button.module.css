@@ -1,0 +1,10 @@
+.button {
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  background-color: var(--light-base-dark);
+  color: white;
+}
+
+:global(.dark) .button {
+  background-color: var(--dark-base-light);
+}
