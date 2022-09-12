@@ -1,0 +1,37 @@
+/* Body */
+
+.body {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Header */
+.header {
+  width: fit-content;
+  background-color: var(--light-accent); /* Fallback if gradient is unsupported */
+  background: -webkit-linear-gradient(315deg, var(--light-accent) 0%, var(--light-base-dark) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dark .header {
+  background-color: var(--dark-accent); /* Fallback if gradient is unsupported */
+  background: -webkit-linear-gradient(315deg, var(--dark-accent) 0%, var(--dark-base-light) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subheader {
+  margin-top: 1rem;
+}
+
+/* Theme Switcher */
+.themeSwitcher {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  box-shadow: 0px 8px 20px 1px rgba(68, 68, 68, 0.25);
+  -webkit-box-shadow: 0px 8px 20px 1px rgba(68, 68, 68, 0.25);
+}
