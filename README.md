@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# How to React
+How to react is a part of the How to Series Programme that gives students the opportunity to teach a topic to fellow students.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repository is used as part of the How to React programme to demonstrate fundamental React concepts like components, and hooks.
 
-## Available Scripts
+## Cocktail DB
+This project is a modified version of this tutorial,https://youtu.be/ly3m6mv5qvg which was modified to suit the content of the programme.
 
-In the project directory, you can run:
+Cocktail DB is a database that lets users browse for cocktails. 
 
-### `npm start`
+## Getting Started
+1. Clone this repository.
+1. Run `npm install` to install the project dependencies.
+1. Run `npm start` to run the project.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Challenges
+This project is incomplete! Use this project to test your knowledge by trying out the following challenges:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Filtering and Sorting
+Currently, cocktails can only be searched by names. We can extend this search to include description filters, ingredient filters, and sorting by alphabetical order.
 
-### `npm test`
+### About page
+Starting off simple, try making a simple page. You can change out 'App.js' to use an About page that will describe what Cocktail DB is about.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Single cocktail page
+A page that shows a specific cocktail, based on the url. So, if a user clicks on a cocktail in the browsing page, they should be redirected to a page specific for that cocktail that will have instructions on how to make and more information on the cocktail.
 
-### `npm run build`
+You can look into routing (e.g. React Router).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Connecting to an API
+Currently, this project uses hardcoded data. Create your own backend, and learn how to connect to it on the frontend (This repository).
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You can look into creating a backend service (e.g. NodeJS + Express), and a library to handle APIs on the frontend (e.g. React Query).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Switch out to another styling library or framework
+CSS modules are awesome! However, writing raw CSS can be tedious and it can be easy to make your UIs look inconsistent.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+You can look into Bootstrap, TailwindCSS, and styled components as examples.
