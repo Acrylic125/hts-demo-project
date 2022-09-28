@@ -16,11 +16,11 @@ Cocktail DB is a database that lets users browse for cocktails.
 ## Challenges
 This project is incomplete! Use this project to test your knowledge by trying out the following challenges:
 
-### Filtering and Sorting
-Currently, cocktails can only be searched by names. We can extend this search to include description filters, ingredient filters, and sorting by alphabetical order.
-
 ### About page
 Starting off simple, try making a simple page. You can change out 'App.js' to use an About page that will describe what Cocktail DB is about.
+
+### Filtering and Sorting
+Currently, cocktails can only be searched by names. We can extend this search to include description filters, ingredient filters, and sorting by alphabetical order.
 
 ### Single cocktail page
 A page that shows a specific cocktail, based on the url. So, if a user clicks on a cocktail in the browsing page, they should be redirected to a page specific for that cocktail that will have instructions on how to make and more information on the cocktail.
